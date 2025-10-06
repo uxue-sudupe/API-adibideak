@@ -1,8 +1,9 @@
  
-# 🔓 Datu Irekiak & 🧩 APIak
+# 🔓 Datu Irekiak eta APIak
  
-Sarrera honek **datu irekiak** zer diren eta **APIek** datu irekien berrerabilera nola errazten duten azaltzen du,  
-Europako eta Espainiako araudiari erreparatuz, eta **EAEko** (Euskal Autonomia Erkidegoa) testuinguruan kokatuta.  
+Aurkezpen honek **datu irekiak** zer diren eta **APIek** datu irekien berrerabilera nola errazten duten azaldu nahi du,  
+Europako eta Espainiako araudiari erreparatuz, eta **EAEko** (Euskal Autonomia Erkidegoa) testuinguruan kokatuta. 
+
 Azpian, azalpen laburrak, esteka erabilgarriak eta adibide praktikoak aurkituko dituzu.
 
 ---
@@ -12,10 +13,8 @@ Azpian, azalpen laburrak, esteka erabilgarriak eta adibide praktikoak aurkituko 
 1. [Zer dira Datu Irekiak?](#1-zer-dira-datu-irekiak-open-data)  
 2. [Zer dira APIak? eta zergatik garrantzitsuak?](#2-eta-zer-dira-apiak)  
 3. [Araudia: EB, Espainia eta EAE](#3-datu-irekiei-eta-apiei-buruzko-arauadia)  
-4. [EAE: politikak eta araudia](#euskal-autonomia-erkidegoko-arauadia-eta-politikak)  
-5. [APIak praktikaren ikuspegitik](#araudia-eta-apiak)  
-6. [Adibide praktikoak (Colab)](#6-adibide-praktikoak)  
-7. [Erreferentziak eta estekak](#-erreferentziak-eta-estekak)
+4. [Adibide praktikoak (Colab)](#4-adibide-praktikoak)  
+
 
 ---
 
@@ -75,66 +74,39 @@ datuak automatikoki kontsultatu, eguneratu edo deskargatzeko bidea.
 - **a) Automatizazioa eta berrerabilera**  
   Aplikazioek edo webguneek datuak zuzenean eskuratzen dituzte
 
-b) Eguneratze jarraitua
+- **b) Eguneratze jarraitua**
 Fitxategi estatikoekin alderatuta, API bidez datuak beti eguneratuak egon daitezke.
 
-c) Kontsulta selektiboa
+- **c) Kontsulta selektiboa**
 Soilik behar duzun zatia eska dezakezu (adib. “2024ko garraio-datuak Gipuzkoan”).
 
-d) Interoperabilitatea
+- **d) Interoperabilitatea**
 Estándar irekiak (REST, JSON, XML, SDMX, RDF…) → sistema ezberdinek elkarreragina.
 
-e) Gardentasuna eta trazabilitatea
+- **e) Gardentasuna eta trazabilitatea**
 Dokumentatutako sarbideak, bertsioak eta logak → kontrol eta gobernantza hobea.
 
 🧭 Labur-labur: Open Data = zer partekatzen den; API = nola partekatzen den.
 
-3. Datu irekiei eta APIei buruzko araudia
-🇪🇺 2019/1024 (EB) Zuzentaraua
+## 3. Datu irekiei eta APIei buruzko araudia
 
-Europako Parlamentuaren eta Kontseiluaren 2019/1024 (EB) Zuzentaraua
-Sektore publikoko informazioaren datu irekiak eta berrerabilera arautzen ditu (Open Data Directive).
+- **Europako Parlamentuaren eta Kontseiluaren 2019/1024 (EB) Zuzentaraua, 2019ko ekainaren 20koa, sektore publikoko datu irekiei eta informazioaren berrerabilerari buruzkoa**
+Open Data Directive bezala ezaguna, 2003/98/EE eta 2013/37/UE zuzentarauak ordezkatzen ditu.
 
-2003/98/EE eta 2013/37/UE zuzentarauak ordezkatzen ditu.
+“Balio handiko datu multzoak” (High Value Datasets) doan, API bidez eta formatu irekian argitaratu behar direla dio.
 
 Datuak formatu ireki eta makina bidez irakurgarrietan argitaratu behar dira, lizentzia argiekin.
 
-“Balio handiko datu multzoak” (High Value Datasets) doan, API bidez eta formatu irekian.
+- **37/2007 Legea, azaroaren 16koa, sektore publikoko informazioa berrerabiltzeari buruzkoa**
 
-Arlo nagusiak: geoespaziala, meteorologia, estatistika, mugikortasuna, enpresak, etab.
+- **108/2012 Dekretua: Euskal Autonomia Erkidegoko Administrazio Orokorrean informazioaren berrerabilerari buruzkoa**
 
-🇪🇸 Lege eta dekretu nagusiak
-
-37/2007 Legea, azaroaren 16koa:
-Sektore publikoko informazioaren berrerabilerari buruzkoa (Ley PSI).
-
-1495/2011 Errege Dekretua:
-Legea garatzen du eta datos.gob.es
- ataria sortzen du.
-
-203/2021 Errege Dekretua:
-Interoperabilitatearen Eskema Nazionala ezartzen du (formatu irekiak, metadatuak, API gomendioak).
-
-🔄 Espainia ari da egokitzen 2019/1024 (EB) Zuzentarau berrira, bereziki balio handiko datu multzoei dagokienez.
-
-Euskal Autonomia Erkidegoko araudia eta politikak
-
-EAEk bere marko propioa du, estatuko eta EBko printzipioekin bat eginez.
-
-108/2012 Dekretua:
-Euskal Autonomia Erkidegoko Administrazio Orokorrean informazioaren berrerabilerari buruzkoa.
-
-Araudia eta APIak
-
-Lege europar eta espainiarrek ez dute APIen erabilera derrigorrezkoa egiten, baina bai gomendatua.
-
-“Balio handiko datu multzoak API bidez jarri behar dira eskuragarri, ahal denean deskarga masiboa eskainiz.”
-— 2019/1024 (EB) Zuzentaraua, 6. artikulua
+Lege hauek ez dute APIen erabilera derrigorrezkoa egiten, baina bai gomendatua.
 
 
-## 6 Adibide praktikoak (Google-ko kontu bat beharko duzu)
+## 4 Adibide praktikoak (Google-ko kontu bat beharko duzu)
 
-📘  Eurostaten APIa erabiltzeko adibideak :[![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_Eurostat_eu.ipynb)  
+📘  Eurostaten web zerbitzua erabiltzeko adibideak :[![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_Eurostat_eu.ipynb)  
 
 📘  INEren web zerbitzua erabiltzeko adibideak: [![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_INE_eu.ipynb)  
 
