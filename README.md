@@ -100,7 +100,7 @@ Euskal Autonomia Erkidegoak bere marko propioa garatu du, estatuko eta europar e
 - **Open Data** politika edo printzipioa da: informazio publikoa eskuragarri eta berrerabilgarri izan dadila.  
 - **APIak** tresna teknikoak dira: datu horietara automatikoki sartzea, kontsultatzea eta eguneratzea ahalbidetzen dute.
 
-> Esanda labur: **Open Data “zer” den azaltzen du, eta APIek “nola” egiten den.**
+> Labur esanda: **Open Data “zer” den azaltzen du, eta APIek “nola” egiten den.**
 
 ---
 
@@ -108,7 +108,7 @@ Euskal Autonomia Erkidegoak bere marko propioa garatu du, estatuko eta europar e
 
 ### a) Automatizazioa eta berrerabilera
 Aplikazioek edo webguneek datuak zuzenean eskuratu ditzakete:
-```bash
+
 GET https://opendata.euskadi.eus/api/dataset/empleo?year=2024
 
 b) Eguneratze jarraitua
