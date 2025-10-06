@@ -12,7 +12,7 @@ Azpian, azalpen laburrak, esteka erabilgarriak eta adibide praktikoak aurkituko 
 
 1. [Zer dira Datu Irekiak?](#1-zer-dira-datu-irekiak-open-data)  
 2. [Zer dira APIak? eta zergatik garrantzitsuak?](#2-eta-zer-dira-apiak)  
-3. [Araudia: EB, Espainia eta EAE](#3-datu-irekiei-eta-apiei-buruzko-arauadia)  
+3. [Araudia: EB, Espainia eta EAE](#3-datu-irekiei-eta-apiei-buruzko-araudia)  
 4. [Adibide praktikoak (Colab)](#4-adibide-praktikoak)  
 
 
@@ -20,20 +20,20 @@ Azpian, azalpen laburrak, esteka erabilgarriak eta adibide praktikoak aurkituko 
 
 ## 1. Zer dira Datu irekiak (open data)
 
-**Open Data** (Datu Irekiak) administrazioek, erakundeek edo enpresek datuak  
-**modu libre eta eskuragarrian** argitaratzea da, edonork **erabili, berrerabili eta banatu** ahal izateko.
+**Open Data** (datu irekiak) administrazioek, erakundeek edo enpresek datuak  
+**modu libre eta eskuragarrian** argitaratzea da, edonork **erabili, berrerabili eta zabaldu** ahal izateko.
 
 ### Ezaugarri nagusiak
 
 - **Publikoki eskuragarriak:**  
-  Edonork sarbidea izan behar du, oztopo edo murrizketa bidegabe barik.
+  Edonork sarbidea izan behar du, oztopo edo murrizketa bidegaberik gabe.
 
 - **Doakoak edo kostu txikikoak:**  
   Sarbideak eta berrerabilerak ez lukete ordainketa esanguratsurik ekarri behar.
 
 - **Formatu ireki eta makina bidez irakurgarrietan:**  
   Adib.: `CSV`, `JSON`, `XML`, `RDF`, `SDMX`  
-  *(ez **PDF** edo jabetzako formatu itxiak, hala nola `.xls` zaharrak)*.
+  *(ez **PDF** edo jabetzako formatu itxiak, hala nola `.xls`)*.
 
 - **Metadatu argiak:**  
   Jatorria, eguneratze-data, edukia, lizentziak, kalitate-adierazleak…
@@ -59,7 +59,6 @@ Azpian, azalpen laburrak, esteka erabilgarriak eta adibide praktikoak aurkituko 
   [https://data.europa.eu](https://data.europa.eu)
 - 🌐 **Open Data Euskadi ataria:**  
   [https://opendata.euskadi.eus](https://opendata.euskadi.eus)  
-  Eusko Jaurlaritzak kudeatua; Espainian aitzindaria (2010).
 
 ---
 
@@ -86,16 +85,11 @@ Estándar irekiak (REST, JSON, XML, SDMX, RDF…) → sistema ezberdinek elkarre
 - **e) Gardentasuna eta trazabilitatea**
 Dokumentatutako sarbideak, bertsioak eta logak → kontrol eta gobernantza hobea.
 
-🧭 Labur-labur: Open Data = zer partekatzen den; API = nola partekatzen den.
 
 ## 3. Datu irekiei eta APIei buruzko araudia
 
 - **Europako Parlamentuaren eta Kontseiluaren 2019/1024 (EB) Zuzentaraua, 2019ko ekainaren 20koa, sektore publikoko datu irekiei eta informazioaren berrerabilerari buruzkoa**
-Open Data Directive bezala ezaguna, 2003/98/EE eta 2013/37/UE zuzentarauak ordezkatzen ditu.
-
-“Balio handiko datu multzoak” (High Value Datasets) doan, API bidez eta formatu irekian argitaratu behar direla dio.
-
-Datuak formatu ireki eta makina bidez irakurgarrietan argitaratu behar dira, lizentzia argiekin.
+Open Data Directive bezala ezaguna, 2003/98/EE eta 2013/37/UE zuzentarauak ordezkatzen ditu. “Balio handiko datu multzoak” (High Value Datasets) doan, API bidez eta formatu irekian argitaratu behar direla dio. Datuak formatu ireki eta makina bidez irakurgarrietan argitaratu behar dira, lizentzia argiekin.
 
 - **37/2007 Legea, azaroaren 16koa, sektore publikoko informazioa berrerabiltzeari buruzkoa**
 
@@ -104,7 +98,9 @@ Datuak formatu ireki eta makina bidez irakurgarrietan argitaratu behar dira, liz
 Lege hauek ez dute APIen erabilera derrigorrezkoa egiten, baina bai gomendatua.
 
 
-## 4 Adibide praktikoak (Google-ko kontu bat beharko duzu)
+## 4 Adibide praktikoak 
+
+Datu estatistikoen APIak probatzeko kuaderno hauek prestatu dira, R hizkuntza erabilita. Google Colab-en irekitzeko Google-eko kontu bat beharko duzu
 
 📘  Eurostaten web zerbitzua erabiltzeko adibideak :[![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_Eurostat_eu.ipynb)  
 
