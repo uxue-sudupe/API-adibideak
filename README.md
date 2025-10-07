@@ -73,7 +73,7 @@ Fitxategi estatikoekin alderatuta, API bidez datuak beti eguneratuak egon daitez
 Soilik behar duzun zatia eska dezakezu (adib. “2024ko garraio-datuak Gipuzkoan”).
 
 - **d) Interoperabilitatea**
-Estándar irekiak (REST, JSON, XML, SDMX, RDF…) → sistema ezberdinek elkarreragina.
+Estandar irekiak (REST, JSON, XML, SDMX, RDF…) → sistema ezberdinek elkarreragina.
 
 - **e) Gardentasuna eta trazabilitatea**
 Dokumentatutako sarbideak, bertsioak eta logak → kontrol eta gobernantza hobea.
