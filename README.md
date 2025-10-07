@@ -53,13 +53,6 @@ Azpian, azalpen laburrak, esteka erabilgarriak eta adibide praktikoak aurkituko 
 
 > 💡 **Gomendioa:** formatu irekiak + metadatu onak + lizentzia argiak = berrerabilera erraza.
 
-### Opendata atariak
-
-- 🌍 **Europako Open Data ataria:**  
-  [https://data.europa.eu](https://data.europa.eu)
-- 🌐 **Open Data Euskadi ataria:**  
-  [https://opendata.euskadi.eus](https://opendata.euskadi.eus)  
-
 ---
 
 ## 2. Eta zer dira APIak?
@@ -97,6 +90,12 @@ Open Data Directive bezala ezaguna, 2003/98/EE eta 2013/37/UE zuzentarauak ordez
 
 Lege hauek ez dute APIen erabilera derrigorrezkoa egiten, baina bai gomendatua.
 
+### Opendata atariak
+
+- 🌍 **Europako Open Data ataria:**  
+  [https://data.europa.eu](https://data.europa.eu)
+- 🌐 **Open Data Euskadi ataria:**  
+  [https://opendata.euskadi.eus](https://opendata.euskadi.eus)  
 
 ## 4 Adibide praktikoak 
 
