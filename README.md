@@ -57,7 +57,7 @@ Azpian, azalpen laburrak, esteka erabilgarriak eta adibide praktikoak aurkituko 
 
 ## 2. Eta zer dira APIak?
 
-**APIak** (*Application Programming Interfaces*) datuetarako **sarbide programagarria** ematen duten **tresna teknikoak** dira.  
+**APIak** (*Application Programming Interfaces*) **programa bidez** datuetara sartzeko posibilitatea ematen duten **tresna teknikoak** dira.  
 
 **Open Data** da politika/printzipioa (*zer*), eta **APIak** dira horretara heltzeko **modua** (*nola*): datuak automatikoki kontsultatu, eguneratu edo deskargatzeko bidea.
 
