@@ -16,10 +16,10 @@ Datu estatistikoen APIak probatzeko Jupyter Notebook formatuko kuaderno hauek pr
 
 ### 3. Gehiago jakiteko
 
-* [restatapi-ren erreferentziako manuala](https://cran.r-project.org/web/packages/restatapi/refman/restatapi.html)
-* [restatapi-ren Github orria](https://github.com/eurostat/restatapi))
+* [restatapi-ren erreferentziako manuala](https://cran.r-project.org/web/packages/restatapi/refman/restatapi.html) eta [Github orria](https://github.com/eurostat/restatapi)
 
 * [statistics-coded](https://github.com/eurostat/statistics-coded): [Eurostat Statistics Explained](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Main_Page) artikuluetan aurkeztutako grafiko eta taulak erreproduzitzeko notebook-ak. Datuak API bidez eskatzen dira (R eta Python-en)
+  
 * [ineapir-en tutoriala](https://github.com/es-ine/tutorial-ineapir) eta  [txuleta(cheatsheet)](https://raw.githubusercontent.com/es-ine/ineapir/main/man/figures/ineapir.pdf)
   
   ---
@@ -43,9 +43,10 @@ Para abrir los cuadernos en Google Colab necesitarás una cuenta de Gmail.
 
 ### 3. Más información
 
-* [Manual de referencia de restatapi](https://cran.r-project.org/web/packages/restatapi/refman/restatapi.html)
-* [Página de restatapi en Github](https://github.com/eurostat/restatapi))
+* [Manual de referencia de restatapi](https://cran.r-project.org/web/packages/restatapi/refman/restatapi.html) y su [página en Github](https://github.com/eurostat/restatapi)
+  
 * [statistics-coded](https://github.com/eurostat/statistics-coded): notebooks para reproducir los gráficos y tablas presentados en los artículos de [Eurostat Statistics Explained](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Main_Page). Los datos se solicitan a través de la API (en R y Python)
+  
 * [Tutorial de ineapir](https://github.com/es-ine/tutorial-ineapir) y su [chuleta(cheatsheet)](https://raw.githubusercontent.com/es-ine/ineapir/main/man/figures/ineapir.pdf)
   
 
