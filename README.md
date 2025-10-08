@@ -28,7 +28,7 @@ Datu estatistikoen APIak probatzeko Jupyter Notebook formatuko kuaderno hauek pr
 
 ### **1. Datos abiertos y API**
 
-Como introducciónse ha preparado 📘 [esta presentación](doc/API_doc_es.md), donde se explica qué son los datos abiertos y las API.
+Como introducción se ha preparado 📘 [esta presentación](doc/API_doc_es.md), donde se explica qué son los datos abiertos y las API.
 
 ### 2. Ejemplos de uso
 
