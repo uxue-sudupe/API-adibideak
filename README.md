@@ -1,111 +1,51 @@
- 
-# 🔓 Datu Irekiak eta APIak
- 
-Aurkezpen honek **datu irekiak** zer diren eta **APIek** datu irekien berrerabilera nola errazten duten azaldu nahi du,  
-Europako eta Espainiako araudiari erreparatuz, eta Euskal Autonomia Erkidegoko testuinguruan kokatuta. 
+## Datu estatistikoen APIak nola erabili (Eurostat, INE, Opendata Euskadi)
 
-Azpian, azalpen laburrak, esteka erabilgarriak eta adibide praktikoak aurkituko dituzu.
+###  **1. Datu irekiak eta APIak**
 
----
+Sarrera bezala📘 [aurkezpen hau](doc/API_doc_eu.md) prestatu da. Bertan datu irekiak eta APiak zer diren azaltzen da.
 
-## 📚 Eduki-taula
+### 2. Erabilera adibideak
 
-1. [Zer dira Datu Irekiak?](#1-zer-dira-datu-irekiak-open-data)  
-2. [Zer dira APIak? eta zergatik garrantzitsuak?](#2-eta-zer-dira-apiak)  
-3. [Araudia: EB, Espainia eta EAE](#3-datu-irekiei-eta-apiei-buruzko-araudia)  
-4. [Adibide praktikoak (Colab)](#4-adibide-praktikoak)  
+Datu estatistikoen APIak probatzeko Jupyter Notebook formatuko kuaderno hauek prestatu dira, R hizkuntza erabilita. Kuadernoak Google Colab-en irekitzeko gmail-eko kontu bat beharko duzu.
 
+1. 📘  Eurostaten web zerbitzua erabiltzeko adibideak: [![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_Eurostat_eu.ipynb)  
 
----
+2. 📙  INEren web zerbitzua erabiltzeko adibideak: [![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_INE_eu.ipynb)  
 
-## 1. Zer dira Datu irekiak (open data)
+3. 📊  Open Data Euskadiren APIak erabiltzeko adibideak: [![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_Opendata_Euskadi_eu.ipynb)  
 
-**Open Data** (datu irekiak) administrazioek, erakundeek edo enpresek datuak  
-**modu libre eta eskuragarrian** argitaratzea da, edonork **erabili, berrerabili eta zabaldu** ahal izateko.
+### 3. Erreferentziak
 
-### Ezaugarri nagusiak
+* [restatapi-ren erreferentziako manuala](https://cran.r-project.org/web/packages/restatapi/refman/restatapi.html)
+* [pyrostat](https://github.com/eurostat/pyrostat): Eurostaten APIrako Python liburutegia
+* [PowerBI-connector](https://github.com/eurostat/PowerBI-connector): Eurostaten APIa PowerBIri konektatzea errazten duen tresna
+* [statistics-coded](https://github.com/eurostat/statistics-coded): [Eurostat Statistics Explained](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Main_Page) artikuluetan aurkeztutako grafiko eta taulak erreproduzitzeko notebook-ak. Datuak API bidez eskatzen dira (R eta Python-en)
+  
+  ---
+  
+## Cómo utilizar las API de datos estadísticos (Eurostat, INE, Opendata Euskadi)
 
-- **Publikoki eskuragarriak:**  
-  Edonork sarbidea izan behar du, oztopo edo murrizketa bidegaberik gabe.
+### **1. Datos abiertos y API**
 
-- **Doakoak edo kostu txikikoak:**  
-  Sarbideak eta berrerabilerak ez lukete ordainketa esanguratsurik ekarri behar.
+Como introducción 📘 se ha preparado [esta presentación](doc/API_doc_es.md), donde se explica qué son los datos abiertos y las API.
 
-- **Formatu ireki eta makina bidez irakurgarrietan:**  
-  Adib.: `CSV`, `JSON`, `XML`, `RDF`, `SDMX`  
-  *(ez **PDF** edo jabetzako formatu itxiak, hala nola `.xls`)*.
+### 2. Ejemplos de uso
 
-- **Metadatu argiak:**  
-  Jatorria, eguneratze-data, edukia, lizentziak, kalitate-adierazleak…
+Para probar las API de datos estadísticos se han preparado los siguientes cuadernos en formato Jupyter Notebook, utilizando el lenguaje R.  
+Para abrir los cuadernos en Google Colab necesitarás una cuenta de Gmail.
 
-- **Lizentzia irekiak:**  
-  Besteek erabili, berrerabili eta konbinatu ahal izan ditzaten.  
-  Adib.: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+1. 📘  Ejemplos de uso del servicio web de Eurostat: [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/es/API_Eurostat_es.ipynb)  
 
-- **Berrerabilgarriak:**  
-  Aplikazioak, txostenak, bistaratzeak edo zerbitzu berriak sortzeko baliagarriak.
+2. 📙  Ejemplos de uso del servicio web del INE: [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/es/API_INE_es.ipynb)  
 
-- **Eguneratuak eta kalitatezkoak:**  
-  Datuak eguneratuta, koherente eta fidagarri mantendu behar dira.
+3. 📊  Ejemplos de uso de las API de Open Data Euskadi: [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/es/API_Opendata_Euskadi_es.ipynb)  
 
-- **Ez-diskriminatzaileak:**  
-  Ez da beharrezkoa erregistratzea edo baldintza berezirik betetzea sarbidea izateko.
+### 3. Referencias
 
-> 💡 **Gomendioa:** formatu irekiak + metadatu onak + lizentzia argiak = berrerabilera erraza.
-
----
-
-## 2. Eta zer dira APIak?
-
-**APIak** (*Application Programming Interfaces*) **programa bidez** datuetara sartzeko posibilitatea ematen duten **tresna teknikoak** dira.  
-
-**Open Data** da politika/printzipioa (*zer*), eta **APIak** dira horretara heltzeko **modua** (*nola*): datuak automatikoki kontsultatu, eguneratu edo deskargatzeko bidea.
-
-### Zergatik dira APIak garrantzitsuak?
-
-- **a) Automatizazioa eta berrerabilera**  
-  Aplikazioek edo webguneek datuak zuzenean eskuratzen dituzte
-
-- **b) Eguneratze jarraitua**
-Fitxategi estatikoekin alderatuta, API bidez datuak beti eguneratuak egon daitezke.
-
-- **c) Kontsulta selektiboa**
-Soilik behar duzun zatia eska dezakezu (adib. “2024ko garraio-datuak Gipuzkoan”).
-
-- **d) Interoperabilitatea**
-Estandar irekiak (REST, JSON, XML, SDMX, RDF…) → sistema ezberdinek elkarreragina.
-
-- **e) Gardentasuna eta trazabilitatea**
-Dokumentatutako sarbideak, bertsioak eta logak → kontrol eta gobernantza hobea.
-
-
-## 3. Datu irekiei eta APIei buruzko araudia
-
-- **Europako Parlamentuaren eta Kontseiluaren 2019/1024 (EB) Zuzentaraua, 2019ko ekainaren 20koa, sektore publikoko datu irekiei eta informazioaren berrerabilerari buruzkoa**
-Open Data Directive bezala ezaguna, 2003/98/EE eta 2013/37/UE zuzentarauak ordezkatzen ditu. “Balio handiko datu multzoak” (High Value Datasets) doan, API bidez eta formatu irekian argitaratu behar direla dio. Datuak formatu ireki eta makina bidez irakurgarrietan argitaratu behar dira, lizentzia argiekin.
-
-- **37/2007 Legea, azaroaren 16koa, sektore publikoko informazioa berrerabiltzeari buruzkoa**
-
-- **108/2012 Dekretua, Euskal Autonomia Erkidegoko Administrazio Orokorrean informazioaren berrerabilerari buruzkoa**
-
-Lege hauek ez dute APIen erabilera derrigorrezkoa egiten, baina bai gomendatua.
-
-### Opendata atariak
-
-- 🌍 **Europako Open Data ataria:**  
-  [https://data.europa.eu](https://data.europa.eu)
-- 🌐 **Open Data Euskadi ataria:**  
-  [https://opendata.euskadi.eus](https://opendata.euskadi.eus)  
-
-## 4 Adibide praktikoak 
-
-Datu estatistikoen APIak probatzeko kuaderno hauek prestatu dira, R hizkuntza erabilita. Kuadernoak Google Colab-en irekitzeko Google-eko kontu bat beharko duzu.
-
-📘  Eurostaten web zerbitzua erabiltzeko adibideak :[![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_Eurostat_eu.ipynb)  
-
-📘  INEren web zerbitzua erabiltzeko adibideak: [![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_INE_eu.ipynb)  
-
-📘  Open Data Euskadiren API erabiltzeko adibideak:[![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_Opendata_Euskadi_eu.ipynb)  
+* [Manual de referencia de restatapi](https://cran.r-project.org/web/packages/restatapi/refman/restatapi.html)
+* [pyrostat](https://github.com/eurostat/pyrostat): biblioteca de Python para la API de Eurostat  
+* [PowerBI-connector](https://github.com/eurostat/PowerBI-connector): herramienta que facilita la conexión de la API de Eurostat con PowerBI  
+* [statistics-coded](https://github.com/eurostat/statistics-coded): notebooks para reproducir los gráficos y tablas presentados en los artículos de [Eurostat Statistics Explained](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Main_Page). Los datos se solicitan a través de la API (en R y Python)
 
 
 
