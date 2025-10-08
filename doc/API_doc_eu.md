@@ -3,8 +3,6 @@
 Aurkezpen honek **datu irekiak** zer diren eta **APIek** datu irekien berrerabilera nola errazten duten azaldu nahi du,  
 Europako eta Espainiako araudiari erreparatuz, eta Euskal Autonomia Erkidegoko testuinguruan kokatuta. 
 
-Azpian, azalpen laburrak, esteka erabilgarriak eta adibide praktikoak aurkituko dituzu.
-
 ---
 
 ## 📚 Eduki-taula
@@ -12,8 +10,6 @@ Azpian, azalpen laburrak, esteka erabilgarriak eta adibide praktikoak aurkituko 
 1. [Zer dira Datu Irekiak?](#1-zer-dira-datu-irekiak-open-data)  
 2. [Zer dira APIak? eta zergatik garrantzitsuak?](#2-eta-zer-dira-apiak)  
 3. [Araudia: EB, Espainia eta EAE](#3-datu-irekiei-eta-apiei-buruzko-araudia)  
-4. [Adibide praktikoak (Colab)](#4-adibide-praktikoak)  
-
 
 ---
 
@@ -95,18 +91,4 @@ Lege hauek ez dute APIen erabilera derrigorrezkoa egiten, baina bai gomendatua.
   [https://data.europa.eu](https://data.europa.eu)
 - 🌐 **Open Data Euskadi ataria:**  
   [https://opendata.euskadi.eus](https://opendata.euskadi.eus)  
-
-## 4 Adibide praktikoak 
-
-Datu estatistikoen APIak probatzeko kuaderno hauek prestatu dira, R hizkuntza erabilita. Kuadernoak Google Colab-en irekitzeko Google-eko kontu bat beharko duzu.
-
-📘  Eurostaten web zerbitzua erabiltzeko adibideak :[![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_Eurostat_eu.ipynb)  
-
-📘  INEren web zerbitzua erabiltzeko adibideak: [![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_INE_eu.ipynb)  
-
-📘  Open Data Euskadiren API erabiltzeko adibideak:[![Ireki Colab-en](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/uxue-sudupe/API-adibideak/blob/main/code_examples/eu/API_Opendata_Euskadi_eu.ipynb)  
-
-
-
-
 
