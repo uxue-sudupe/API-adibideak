@@ -77,14 +77,17 @@ Las **API** (*Application Programming Interfaces*) son **herramientas técnicas*
 
 ## 3. Normativa sobre Datos Abiertos y API
 
-- **Directiva (UE) 2019/1024 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a los datos abiertos y la reutilización de la información del sector público**  
-  Conocida como *Open Data Directive*, sustituye a las Directivas 2003/98/CE y 2013/37/UE.  
-  Establece que los “conjuntos de datos de alto valor” deben publicarse gratuitamente, mediante API y en formato abierto.  
+- [Directiva (UE) 2019/1024 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a los datos abiertos y la reutilización de la información del sector público](https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX%3A32019L1024)
+
+  Conocida como *Open Data Directive*, sustituye a las Directivas 2003/98/CE y 2013/37/UE.
+
+  Establece que los «conjuntos de datos de alto valor» deben publicarse gratuitamente, mediante API y en formato abierto.
+
   Los datos deben ofrecerse en formatos legibles por máquina y con licencias claras.
 
-- **Ley 37/2007, de 16 de noviembre, sobre reutilización de la información del sector público**
+- [Ley 37/2007, de 16 de noviembre, sobre reutilización de la información del sector público](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-19814)
 
-- **Decreto 108/2012, sobre reutilización de la información en la Administración General de la Comunidad Autónoma del País Vasco**
+- [Decreto 91/2023, de 20 de junio, de atención integral y multicanal a la ciudadanía y acceso a los servicios públicos por medios electrónicos (artículo 36)](https://www.legegunea.euskadi.eus/eli/es-pv/d/2023/06/20/91/dof/spa/html/webleg00-contfich/es)
 
 Estas normas no hacen obligatorio el uso de API, pero sí lo **recomiendan** como buena práctica.
 
