@@ -76,14 +76,19 @@ Dokumentatutako sarbideak, bertsioak eta logak → kontrol eta gobernantza hobea
 
 ## 3. Datu irekiei eta APIei buruzko araudia
 
-- **Europako Parlamentuaren eta Kontseiluaren 2019/1024 (EB) Zuzentaraua, 2019ko ekainaren 20koa, sektore publikoko datu irekiei eta informazioaren berrerabilerari buruzkoa**
-Open Data Directive bezala ezaguna, 2003/98/EE eta 2013/37/UE zuzentarauak ordezkatzen ditu. “Balio handiko datu multzoak” (High Value Datasets) doan, API bidez eta formatu irekian argitaratu behar direla dio. Datuak formatu ireki eta makina bidez irakurgarrietan argitaratu behar dira, lizentzia argiekin.
+- [**Europako Parlamentuaren eta Kontseiluaren 2019/1024 (EB) Zuzentaraua, 2019ko ekainaren 20koa, sektore publikoko datu irekiei eta informazioaren berrerabilerari buruzkoa**](https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX%3A32019L1024)
 
-- **37/2007 Legea, azaroaren 16koa, sektore publikoko informazioa berrerabiltzeari buruzkoa**
+  *Open Data Directive* bezala ezaguna, 2003/98/EE eta 2013/37/EB zuzentarauak ordezkatzen ditu.
 
-- **108/2012 Dekretua, Euskal Autonomia Erkidegoko Administrazio Orokorrean informazioaren berrerabilerari buruzkoa**
+  «Balio handiko datu multzoak» (*High Value Datasets*) doan, API bidez eta formatu irekian argitaratu behar direla ezartzen du.
 
-Lege hauek ez dute APIen erabilera derrigorrezkoa egiten, baina bai gomendatua.
+  Datuak formatu ireki eta makina bidez irakurgarrietan eskaini behar dira, lizentzia argiekin.
+
+- [**37/2007 Legea, azaroaren 16koa, sektore publikoko informazioa berrerabiltzeari buruzkoa**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2007-19814)
+
+- [**108/2012 Dekretua, ekainaren 12koa, Euskal Autonomia Erkidegoko Administrazio Orokorrean eta haren erakunde autonomoetan informazioaren berrerabilerari buruzkoa**](https://www.legegunea.euskadi.eus/eli/es-pv/d/2023/06/20/91/dof/eus/html/)
+
+Azken bi arau horiek ez dute APIen erabilera nahitaezkoa egiten, baina datuak formatu ireki, estandarizatu eta berrerabilgarrietan eskaintzea sustatzen dute.
 
 ### Opendata atariak
 
