@@ -89,7 +89,7 @@ Las **API** (*Application Programming Interfaces*) son **herramientas técnicas*
 
 - [Decreto 91/2023, de 20 de junio, de atención integral y multicanal a la ciudadanía y acceso a los servicios públicos por medios electrónicos (artículo 36)](https://www.legegunea.euskadi.eus/eli/es-pv/d/2023/06/20/91/dof/spa/html/webleg00-contfich/es)
 
-Estas normas no hacen obligatorio el uso de API, pero sí lo **recomiendan** como buena práctica.
+Estas dos últimas normas no hacen obligatorio el uso de API, pero sí lo **recomiendan** como buena práctica.
 
 ### Portales de Open Data
 
